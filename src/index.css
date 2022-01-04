@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.dash{
+  width: 100px;
+  height: 1px;
+  background-color: white;
+  margin-top: 12px;
+}
+
+.custom:hover{
+  width: 192px;
+  transition: 200ms all ease-in;
+  color: #151515;
 }
