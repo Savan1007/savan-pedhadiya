@@ -30,5 +30,4 @@ code {
 .custom:hover{
   width: 192px;
   transition: 200ms all ease-in;
-  color: #151515;
 }
