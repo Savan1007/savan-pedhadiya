@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="min-h-screen md:h-screen flex flex-col text-white md:flex-row" style={{backgroundColor: "#151515"}}>
-        <div className="w-1/2">
+        <div className="w-5/12">
           
           <div className="my-5 mx-10 w-96 md:my-20 md:mx-32 md:w-full">
             <div className="font-semibold text-6xl md:text-6xl">
@@ -24,32 +24,25 @@ function App() {
             </div>
           </div>
 
-          <div className="mx-32 w-full flex flex-col items-start invisible md:visible">
+          <div className="mx-32 w-full flex flex-col items-start invisible md:visible" style={{color: "#7d7d7e"}}>
 
-            <div className=" ">
-              <a href="#about" className='flex my-2 w-32 transform custom cursor-pointer' >
+            <div className="my-2">
+              <a href="#about" className="flex my-2 w-32 custom transform cursor-pointer text-xs font-semibold tracking-widest" >
                 01 
                 <div className="bg-white dash mx-5"></div>
                 ABOUT
               </a>
             </div>
-            <div className=" ">
-              <a href="#skill" className='flex my-2 w-40 transform custom cursor-pointer' >
-                02 
-                <div className="bg-white dash mx-5"></div>
-                SKILLS
-              </a>
-            </div>
-            <div className="">
-              <a href="#experience" className='flex my-2 w-40 transform custom cursor-pointer'>
-                03
+            <div className="my-2">
+              <a href="#experience" className='flex my-2 w-40 transform custom cursor-pointer text-xs font-semibold tracking-widest'>
+                02
                 <div className="bg-white dash mx-5"></div>
                 EXPERIENCE
               </a>
             </div>
-            <div className="">
-              <a href="#project" className='flex my-2 w-40 transform custom cursor-pointer'>
-                04 
+            <div className="my-2">
+              <a href="#project" className='flex my-2 w-40 transform custom cursor-pointer text-xs font-semibold tracking-widest'>
+                03 
                 <div className="bg-white dash mx-5"></div>
                 PROJECTS
               </a>
@@ -77,10 +70,9 @@ function App() {
 
           </div>
         </div>
-        <div className="flex-1 flex md:overflow-hidden">
+        <div className="flex-1 flex md:overflow-hidden ">
           <div className="flex-1 md:overflow-y-scroll">
             <About />
-            <Skill />
             <Experience />
             <Project />
             

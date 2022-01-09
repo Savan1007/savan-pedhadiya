@@ -23,12 +23,16 @@ code {
 .dash{
   width: 100px;
   height: 1px;
-  background-color: white;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 .custom:hover{
   width: 192px;
   transition: 200ms all ease-in;
-  color: #151515;
+  color: white
+}
+
+
+.skill-bg{
+  background-color: #444444;
 }
