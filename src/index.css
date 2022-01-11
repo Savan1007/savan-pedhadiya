@@ -29,13 +29,10 @@ code {
 .custom:hover{
   width: 192px;
   transition: 200ms all ease-in;
-<<<<<<< HEAD
   color: white
 }
 
 
 .skill-bg{
   background-color: #444444;
-=======
->>>>>>> 6b9ba454cb8a92f476da6016a6dab6e09c0fce31
 }

@@ -4,8 +4,9 @@ const About = () => {
     return (
         <div className="" id="about">
             <div className='h-4'></div>
+            <h2 className='visible md:invisible mt-20 md:mt-0 mx-8 tracking-widest font-semibold'>ABOUT ME</h2>
 
-            <div className="h-full mx-24 mt-16 transform transition duration-200 hover:scale-110" style={{backgroundColor: "#202022"}}>
+            <div className="h-full mx-8 md:mx-24 mt-8 transform transition duration-200 md:hover:scale-110" style={{backgroundColor: "#202022"}}>
                 <div className="px-6 p-5 font-semibold tracking-widest">
                     Personal
                 </div>
@@ -27,7 +28,7 @@ const About = () => {
             </div>
 
 
-            <div className="h-full mx-24 my-3 transform transition duration-200 hover:scale-110" style={{backgroundColor: "#202022"}}> 
+            <div className="h-full mx-8 md:mx-24 my-3 transform transition duration-200 md:hover:scale-110" style={{backgroundColor: "#202022"}}> 
                 <div className="p-6 font-semibold tracking-widest">
                     Education
                 </div>
@@ -45,9 +46,9 @@ const About = () => {
             </div>
 
 
-            <div className="h-full mx-24 my-4 transform transition duration-200 hover:scale-110" style={{backgroundColor: "#202022"}}>
+            <div className="h-full mx-8 md:mx-24 my-4 transform transition duration-200 md:hover:scale-110" style={{backgroundColor: "#202022"}}>
                 <div className="px-6 p-5 font-semibold tracking-widest">
-                    Skill
+                    Skills
                 </div>
 
                 <div class="px-8 pb-8">
